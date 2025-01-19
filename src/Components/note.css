@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    align-items: center;
+    background-color: #f5d03e;
+    display: flex;
+    font-weight: 500;
+    height: 13vh;
+    width: 100%;
+}
+
+.footer {
+    background-color: #f7b61e;
+    color: #fff;
+    /* text-align: end; */
+}
+
+form {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px #b6bab6;
+}
+
+.form input,
+select,
+option {
+    border: none !important;
+    font-weight: 600 !important;
+    outline: none !important;
+    width: 100% !important;
+}
+
+.form .date input,
+.form .priority select,
+option {
+    color: gray !important;
+}
+
+.plusicon {
+    align-items: flex-end;
+    border: none;
+    color: orange;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: flex-end;
+    margin-left: 85%;
+    text-align: end;
+    text-align: center;
+    background-color: transparent !important;
+}
